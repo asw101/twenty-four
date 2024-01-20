@@ -25,5 +25,6 @@ jobs:
         with:
           azcliversion: latest
           inlineScript: |
-            az account show
+            #az account show
+            az group create -l eastus -n 240100-github
             
